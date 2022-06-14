@@ -24,4 +24,4 @@ jobs:
       - name: Build
         uses: GabrielBB/xvfb-action@v1.6
         with:
-          run: mvn clean install -Dtycho-version=3.0.0-SNAPSHOT -Dtycho.p2.transport=ecf -Dmaven.repo.local=.mxxxx2 -Dtycho.localArtifacts=ignore -f org.eclipse.xtext.example.domainmodel.releng"
+          run: mvn clean install -X -Dtycho-version=3.0.0-SNAPSHOT -Dtycho.p2.transport=ecf -Dmaven.repo.local=.mxxxx2 -Dtycho.localArtifacts=ignore -f org.eclipse.xtext.example.domainmodel.releng"
